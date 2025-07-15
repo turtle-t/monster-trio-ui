@@ -105,6 +105,11 @@ nav ul a{
 .font{
   font-size: 18px;
 }
+.box1:hover , .box2:hover , .box3:hover{
+   transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 
 @media screen and (max-width: 768px) {
   .container {
