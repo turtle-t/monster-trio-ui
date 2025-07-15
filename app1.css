@@ -3,12 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  
 }
 
 body, html {
   height: 100%;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+}
+h1{
+  color: aliceblue;
 }
 
 /* Blurred background */
@@ -59,187 +64,76 @@ nav ul a{
     font-weight: 600px;
     transition: color 0.3s ease;
 }
-.main{
-  
-  
-  width: 93%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center
-  ;
-  border-radius: 20px;
+.box1 , .box2 , .box3{
   background: rgba(0, 0, 0, 0.4);
-  padding: 20px 60px;
-  margin-left: 60px;
-  padding-right: 10px;
-
-  }
-  .main:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-  }
-  
-
-.intro {
- 
-  height:40%;
-  width: 30%;
-}
-.topic{
-  
-  height: 40%;
-  width: 70%;
-  margin-bottom: 40px;
-}
-.wanted{
-  width: 50%;
-  height: 100%;
- margin-left: 100px;
-  border-radius: 20px;
- 
- 
- 
-
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-.main2{
-  height: 500px;
-  width: 94%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 20px;
-  background: rgba(0, 0, 0, 0.4);
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 60px;
- 
-}
-
-.main2:hover{
-  transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-.video{
-  width: 30%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10%;
-}
-.topic2{
-   height: 40%;
-  width: 70%;
-  margin-left: 50px;
-}
-.topic2 h1{
-  font-size: 30px;
-  color: white;
-  font-weight: bold;
-  
-}
-
-@media (max-width: 1024px) {
-  .intro,
-  .topic,
-  .wanted,
-  .video,
-  .topic2 {
+   height: 300px;
     width: 100%;
-    margin: 10px 0;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.child1 , .child2 {
+   
+    height: 100%;
+    align-items: center;
+    
+
+}
+.egg{
+  margin-top: 30px;
+}
+
+.child1{
+    
+    width: 40%;
+}
+.child2,h1{
+    
+    width: 80%;;
+    
+}
+.luffy-wanted{
+  
+ 
+    margin-left: 25%;
+    margin-top: 7px;
+    
+    border-radius: 10px;
+}
+.font{
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 30px;
   }
 
   nav {
     flex-direction: column;
     gap: 10px;
-    text-align: center;
+    align-items: flex-start;
   }
 
   nav ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
 
-  .main,
-  .main2 {
+  .box1, .box2, .box3 {
     flex-direction: column;
+    height: auto;
     padding: 20px;
   }
 
-  .wanted {
+  .child1, .child2 {
+    width: 100%;
+  }
+
+  .luffy-wanted {
     margin-left: 0;
-  }
-}
-
-@media (max-width: 600px) {
-  .container {
-    padding: 10px 20px;
-  }
-
-  body, html {
-    font-size: 16px;
-  }
-
-  nav img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .video {
     width: 100%;
   }
 }
-.main3{
-  height: 500px;
-  width: 94%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 20px;
-  background: rgba(0, 0, 0, 0.4);
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 60px;
-  
-  gap: 20px;
-}
-.wanavideo{
-  width: 30%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10%;
-}
-.wanotext{
-    height: 40%;
-  width: 70%;
-  margin-bottom: 60px;
-  
-}
-.wanotext h1{
-  font-size: 30px;
-  color: white;
-  font-weight: bold;
-  
-}
-
-.wanovideo{
-  width: 30%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10%;
-}
-.wanotext{
-    height: 40%;
-  width: 70%;
-  
-}
-.main3:hover{
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
