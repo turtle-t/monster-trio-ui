@@ -1,0 +1,176 @@
+.container {
+    margin-top: 100px; /* push the content down */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    height: 800px;
+    
+   
+  
+}
+
+
+
+.box1 , .box2 , .box3{
+    width: 300px;
+  
+   
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    
+}
+img{
+    
+    height: 250px;
+    background: transparent;
+    
+    
+    
+    
+    
+}
+h1,h4{
+    align-items: center;
+    text-align: center;
+    background: transparent;
+   
+}
+.social{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+  
+}
+.box1:hover, .box2:hover, .box3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.t1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: -1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+    background: rgba(0, 0, 0, 0.3); /* transparency is REQUIRED */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* for Safari */
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* optional */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional */
+}
+
+
+.straw {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    
+    color: white;
+    
+    
+    font-weight: bold;
+    margin-left: 50px;
+    background: transparent;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("img/pirate.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.about{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+    padding: 10px 20px;
+    border-radius: 10px;
+   
+}
+
+.about1:hover{
+    background-color: darkred;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.about2:hover{
+    background-color: darkgreen;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.about3:hover{
+    background-color:#FFAA33 ;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.about1{
+    background-color: red;
+    color: white;
+}
+.about2{
+    background-color: green;
+    color: white;
+}
+.about3{
+    background-color: #FFBF00;
+    color: white;
+}
+.social-icons{
+      background:transparent ;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+   margin-right: 60px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    
+     
+}
