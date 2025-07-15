@@ -48,7 +48,93 @@ nav ul{
 nav a {
     text-decoration: none;
     color: whitesmoke;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 20px;
 }
 
+.box1 , .box2 , .box3{
+     background: rgba(0, 0, 0, 0.4);
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.child1 , .child2 {
+   
+    height: 100%;
+    
+
+}
+
+.child1{
+    
+    width: 40%;
+}
+.child2,h1{
+    
+    width: 80%;
+    
+    
+}
+
+.sanji-wanted {
+ 
+    margin-left: 25%;
+    
+    border-radius: 10px;
+}
+
+ p{
+    margin-left: 10px;
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+h1{
+    color: aliceblue;
+}
+.t1{
+    font-size: 16px;
+}
+span{
+    margin-left: 100px;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .box1, .box2, .box3 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .child1, .child2 {
+    width: 100%;
+  }
+
+  .sanji-wanted {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  span {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.box1:hover , .box2:hover , .box3:hover{
+   transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
