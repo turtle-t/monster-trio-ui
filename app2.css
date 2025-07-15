@@ -15,6 +15,7 @@
     padding: 0;
     margin:0 ;
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
 
 }
 .container{
@@ -104,4 +105,38 @@ h1{
 .box1:hover , .box2:hover , .box3:hover{
    transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .box1, .box2, .box3 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .child1, .child2 {
+    width: 100%;
+  }
+
+  .zoro-video, .zoro-video1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .zoro-wanted {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 }
